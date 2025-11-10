@@ -21,7 +21,7 @@ header h1 {
   margin-bottom: 8px;
 }
 
-navbar {
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
