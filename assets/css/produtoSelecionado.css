@@ -21,6 +21,50 @@ header h1 {
   margin-bottom: 8px;
 }
 
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 15px 40px;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  color: #4db8ff;
+}
+
+.carrinho-btn {
+  background-color: #0078ff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.carrinho-btn:hover {
+  background-color: #005fcc;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
